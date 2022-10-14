@@ -1,27 +1,29 @@
-# _{Repo Name}_
+# _Week1_
 
-#### By _**{Author}**_
+#### By _**Alejandro Socarras**_
 
-#### _{Brief Description}_
+#### _Cheat Sheet for first week of Epicodus_
 
 ## Technologies Used
 
-* {List}
+* HTML
+* CSS 
+* Bootstrap
 
 ## Description
 
-_{More detailed information about contents}_
+_Summarizes what we practiced this week with quick guides on Git, VS-Code, and Markdown syntax._
 
 ## Setup/Installation Requirements
 
-_{"N/A" if setup/install not required}_
+_N/A_
 
 ## Known Bugs
 
-_{"No known bugs" if none}_
+_None_
 
 ## License
 
 _[MIT License](https://opensource.org/licenses/MIT)_
 
-Copyright (c) _10.11.22_ {Author}
+Copyright (c) _10.11.22_ Alejandro Socarras
