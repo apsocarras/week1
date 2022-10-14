@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>EW1 Cheat Sheet</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1><strong>Epicodus Week 1 </strong><img src="img/epicodus-icon2.png" alt="Epicodus logo"></h1>
+    </div>
+  <div class="row">
+    <div class="col-3">
+      <h3>Monday</h3>
+      <ul>
+        <li>VSC Liveshare</li>
+        <li>Git Commands</li>
+        <li>HTML Formatting and Block Elements</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h3>Tuesday</h3>
+      <ul>
+        <li>Git: Co-Author Commits, Branching & Merging</li>
+        <li>HTML Inline Elements</li>
+        <li>CSS Basics</li>
+        <li>Markdown and READMEs</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h3>Wednesday</h3>
+      <ul>
+        <li>CSS classes</li>
+        <li>Divs and Spans</li>
+        <li>Box Model</li>
+        <li>Centering</li>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h3>Thursday</h3>
+      <ul>
+        <li>Cascading and Specificity</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+  </div>
+  <h2>Git Workflows</h2>
+  <div class="row">
+    <div class="col-4">
+      <h4 class="mb-0">Make local, add Github remote</h4>
+      <pre><code> 
+  mkdir &lt;directory&gt;
+  cd &lt;directory&gt;
+  git init 
+  git remote add &lt;initials&gt; &lt;repo-URL&gt;
+  git add . 
+  git commit -m "..."
+    For coauthoring: -m "...
+    >
+    >
+    > Co-authored-by: &lt;Co-author&gt; <&lt;github email&gt;>"
+  git push aps main
+        </code></pre>
+    </div>
+    <div class="col-4">
+      <h4 class="mb-0">Clone from Github</h4>
+      <pre><code>
+  cd &lt;parent-directory&gt;
+  git clone &lt;repo-URL&gt;
+      </code></pre>
+      <h4 class="my-0">Branching & Merging</h4>
+      <pre><code>
+  git branch # see branches
+  git checkout main
+  git branch &lt;new branch name&gt;
+  git checkout main
+  git merge &lt;branch to merge&gt;
+  git branch -D &lt;obsolete branch&gt;
+      </code></pre>
+    </div>
+    <div class="col-4">
+      <h4 class="mb-0">Publish to GH-Pages</h4>
+      <pre><code>
+  git branch gh-pages
+  git checkout gh-pages
+  git push origin gh-pages
+  Access via: &lt;username&gt;.github.io/&lt;repo-name&gt;
+      </code></pre>      
+    </div>
+  </div>
+  <div class="HTML CheatSheet">
+</body>
+</html>    
